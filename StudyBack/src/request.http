@@ -1,0 +1,24 @@
+@api = http://localhost:5000
+
+POST {{api}}/usuario/creaUsuarioAlumno
+Content-Type: application/json
+
+        {
+            "codigo":"20190559I",
+            "nombre": "seb",
+            "apellido": "seg",
+            "email": "seb@uni.pe",
+            "clave": "1234"
+        }
+
+###
+
+POST {{api}}/usuario/iniciaSesionAlumno
+Content-Type: application/json
+
+        {
+            "codigo": "20190559I",
+            "clave": "1234"
+        }
+
+###

@@ -26,6 +26,7 @@ router.post("/iniciaSesionAlumno", (req, res) => {
             res.json({
               status: "SUCCESS",
               message: "Inicio de sesión satisfactorio",
+              nombre: result[0].nombre
             });
           } else {
             res.json({

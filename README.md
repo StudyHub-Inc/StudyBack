@@ -6,7 +6,11 @@ Tener instalado Mongodb con una bd llamada DBHUB
 
 ## Instalacion dependencias
 npm i cors express mongoose passport passport-local
+
 npm i nodemon -D
 
 ## Ejecución
 npm run dev
+
+## Registro usuario
+Ejecutar un request en el archivo request.http
